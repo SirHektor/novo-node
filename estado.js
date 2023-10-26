@@ -1,9 +1,9 @@
-let estado= function (a,b){
-    if (a = "SP"){
-        return "Você pode acessar"
+let estado = function(a){
+    if( a === "RJ" || a === "SP"){
+        return "Estado Permitido"
+    } else{
+        return "Estado negado"
     }
-    else (b = "RJ")
-        return "Você pode acessar"
-    }
+}
 
-module.exports = estado;
+module.exports = estado

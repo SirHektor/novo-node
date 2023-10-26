@@ -1,7 +1,8 @@
 let idade= function (a){
     if (a >= 18){
-        return "Você tem idade suficiente para acessar"
+        return "Idade suficiente"
+    } else {
+        return "Idade insuficiente"
     }
-} 
-
+}
 module.exports = idade;
