@@ -1,6 +1,5 @@
-let nome = "Anastacia"
-let sobrenome = "Volkova"
-
-console.log(nome + " " + sobrenome)
+let nome = function(a){
+    return `Nome: ${a}`
+}
 
 module.exports = nome

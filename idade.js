@@ -5,4 +5,4 @@ let idade= function (a){
         return "Idade insuficiente"
     }
 }
-module.exports = idade;
+module.exports = idade
